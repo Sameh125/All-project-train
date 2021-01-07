@@ -1,0 +1,485 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background/4236532-background-images.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+.container {
+    width: 8414px;
+    height: 620px;
+    margin: 120px 80px;
+    overflow: hidden;
+    display: inline-flex;
+    box-shadow: 1px 1px 10px 3px #FFF;
+}
+
+/* Strat head */
+
+.head {
+    width: 1070px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.head .photo {
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.head .photo:hover {
+    transform: scale(1.2)
+}
+
+.head .text {
+    width: 720px;
+    position: relative;
+    float: left;
+    background-image: url("background/12.jpg");
+    height: 100%;
+}
+
+.head .text1 {
+    margin: 120px 70px;
+}
+
+.head .text1 h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.head .text1 hr {
+    width: 70px;
+    float: left;
+}
+
+.head .text1 p {
+    line-height: 1.8;
+    color: rgb(226, 209, 209);
+    letter-spacing: .1em;
+}
+
+.head .text1 ul {
+    list-style: none;
+    padding: 60px 0;
+}
+
+.head .text1 a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #FFF;
+    padding: 8px 20px;
+}
+
+/* End head */
+
+/* Start Main 1 */
+
+.main1 {
+    width: 900px;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("photo/pic02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main1 .text {
+    width: 500px;
+    margin: 150px auto auto 340px;
+}
+
+.main1 .text hr {
+    width: 60px;
+    float: left;
+}
+
+.main1 .text p {
+    line-height: 1.8;
+    color: rgb(236, 224, 224);
+    margin-top: 5px;
+}
+
+/* End Main 1 */
+
+
+/* Start Main 2*/
+
+.main2 {
+    width: 900px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #8D698C;
+}
+
+.main2 .text {
+    width: 50%;
+    float: left;
+}
+
+.main2 .text p {
+    line-height: 1.8;
+    color: rgb(236, 224, 224);
+    margin-top: 5px;
+    width: 350px;
+}
+
+.main2 .text1 {
+    padding: 120px 70px;
+}
+
+.main2 .text1 hr {
+    width: 50px;
+    float: left;
+}
+
+.main2 .photo {
+    width: 50%;
+    float: left;
+}
+
+.main2 .photo img {
+    margin-top: 130px;
+}
+
+/* End Main 2*/
+
+/* Start Main 3 */
+
+.main3 {
+    width: 1200px;
+    height: 100%;
+    background-image: url("photo/pic03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main3 .text {
+    width: 500px;
+    margin: 150px auto auto 60px;
+}
+
+.main3 .text hr {
+    width: 70px;
+    float: left;
+}
+
+.main3 .text p {
+    line-height: 1.8;
+    color: rgb(124, 123, 123);
+    width: 430px;
+}
+
+/* Start Main 3 */
+
+/* Start Main 4 */
+
+.main4 {
+    background-color: #E2827E;
+    width: 400px;
+    height: 100%;
+}
+
+.main4 .text {
+    margin: 150px auto auto 60px;
+}
+
+.main4 .text hr {
+    width: 70px;
+    float: left;
+}
+
+.main4 .text p {
+    line-height: 1.8;
+    width: 280px;
+    color: #F3CDCD;
+}
+
+/* End Main 4 */
+
+/* Start Divs Photo */
+
+/* Start div1 */
+
+.div1 {
+    width: 34rem;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.div1 img:first-child {
+    width: 100%;
+    display: block;
+    height: 50%;
+}
+
+.div1 img:nth-child(2) {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.div1 img:last-child {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.div1 img,
+.div2 img,
+.div3 img,
+.div4 img {
+    transition: all .5s ease-in-out;
+}
+
+.div1 img:hover,
+.div2 img:hover,
+.div3 img:hover,
+.div4 img:hover {
+    transform: scale(1.1);
+}
+
+/* End div1 */
+
+/* Start div2 */
+
+.div2 {
+    width: 450px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.div2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* End div2 */
+
+/* Start Div3 */
+
+.div3 {
+    overflow: hidden;
+    height: 100%;
+    width: 900px;
+}
+
+.div3 img:first-child {
+    height: 50%;
+    width: 70%;
+    float: left;
+}
+
+.div3 img:nth-child(2) {
+    height: 50%;
+    width: 30%;
+    float: left;
+}
+
+.div3 img:nth-child(3) {
+    height: 50%;
+    width: 30%;
+    float: left;
+}
+
+.div3 img:last-child {
+    height: 50%;
+    width: 70%;
+    float: left;
+}
+
+/* End Div3 */
+
+/* Start Div4 */
+
+.div4 {
+    width: 450px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.div4 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* End Div4 */
+
+/* End Divs Photo */
+
+/* Start Main5 */
+
+.main5 {
+    background-color: #645A72;
+    width: 400px;
+    height: 100%;
+}
+
+.main5 .text {
+    margin: 150px auto auto 60px;
+}
+
+.main5 .text hr {
+    width: 70px;
+    float: left;
+}
+
+.main5 .text p {
+    line-height: 1.8;
+    width: 280px;
+    color: #f5dfdf;
+}
+
+/* End Main5 */
+
+/* Start Footer */
+
+.footer {
+    background-color: #514360;
+    width: 1200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.footer .contact {
+    width: 670px;
+    margin: 120px 0 0 70px;
+    position: relative;
+    float: left;
+}
+
+.footer .contact .f1 {
+    width: 320px;
+    height: 110px;
+    float: left;
+}
+
+.footer .contact input {
+    padding: 8px;
+    margin: 17px 0 0 0;
+    width: 290px;
+    border: 2px solid #7C6F87;
+    border-radius: 7px;
+    background-color: #514360;
+    font-size: 20px;
+    color: #f5dfdf;
+}
+
+.footer .contact input:hover {
+    border-color: #FFE4B4;
+}
+
+.footer .contact label {
+    font-weight: bold;
+}
+
+.footer .contact .f2 {
+    width: 320px;
+    height: 110px;
+    float: left;
+    display: block;
+}
+
+.footer .contact .f3 {
+    width: 600px;
+}
+
+.footer .contact textarea {
+    width: 610px;
+    height: 190px;
+    background-color: #514360;
+    padding: 10px;
+    margin: 15px 0 0 0;
+    font-size: 20px;
+    border: 2px solid #7C6F87;
+    border-radius: 7px;
+    color: #f5dfdf;
+}
+
+.footer .contact textarea:hover {
+    border-color: #FFE4B4;
+}
+
+.footer .contact button {
+    padding: 18px 25px;
+    background-color: #FFF;
+    margin: 15px 0 0 0;
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    color: #514360;
+}
+
+.footer .contact button:hover {
+    background-color: #FFE4B4;
+    border-color: #FFE4B4;
+}
+
+.footer hr {
+    width: 1px;
+    height: 480px;
+    float: left;
+    margin-top: 60px;
+}
+
+.footer .icon {
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+.footer .icon ul:first-child {
+    width: 140px;
+    float: left;
+    padding-top: 140px;
+    list-style: none;
+    margin: 0;
+    padding-left: 60px;
+}
+
+.footer .icon ul:first-child li {
+    padding-bottom: 25px;
+}
+
+.footer .icon ul:last-child {
+    width: 160px;
+    float: left;
+    padding-top: 140px;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.footer .icon ul:last-child li {
+    padding-bottom: 60px;
+}
+
+.footer .icon ul:last-child a {
+    text-decoration: none;
+    color: #f5dfdf;
+}
+
+.footer .icon ul:last-child a:hover {
+    color: #FFE4B4;
+}
+
+/* End Footer*/

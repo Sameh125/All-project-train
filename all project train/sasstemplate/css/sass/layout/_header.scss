@@ -1,0 +1,83 @@
+/* Start Header */
+.header {
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid $greyColor;
+    .logo {
+        float: $float-left;
+        color: #505050;
+        position: relative;
+        @media #{$maxSmall} {
+            width: 100%;
+        }
+        @media #{$minSmall} {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+        @media #{$minMedium} {
+            width: 40%;
+            float: $float-left;
+            text-align: $text-left;
+        }
+
+        h1 {
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    .navbar {
+        background-color: $redColor;
+        border-radius: 10px;
+        overflow: hidden;
+        @media #{$minSmall} {
+            width: 100%;
+            float: none;
+            margin-top: 30px;
+            display: block !important;
+        }
+        @media #{$minMedium} {
+            width: 60%;
+            float: $float-left;
+            margin-top: 1em;
+        }
+        @media #{$maxMobile} {
+            display: none;
+            clear: both;
+            border-radius: 0;
+        }
+
+        li {
+            width: 20%;
+            float: $float-left;
+            font-size: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            @media #{$maxMobile} {
+                float: none;
+                display: block;
+                width: 100%;
+                text-align: $text-left;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            a {
+                display: block;
+                padding: 18px 10px;
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                    color: #f18e93;
+                }
+            }
+        }
+    }
+}
+/* End Header */

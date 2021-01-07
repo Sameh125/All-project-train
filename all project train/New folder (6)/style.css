@@ -1,0 +1,278 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+.container {
+    width: 1136px;
+    overflow: hidden;
+    margin: 0px auto;
+    background-color: #1e1f23;
+    box-shadow: 1px 1px 10px 3px black;
+}
+
+/* Start Header */
+
+.head {
+    text-align: center;
+    height: 205px;
+}
+
+.head1 {
+    width: 285px;
+    position: relative;
+    left: 500px;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.head .head1 h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+    color: #FFF;
+}
+
+.head .head1 a {
+    text-decoration: none;
+}
+
+.head .head1 span {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.header .childheader .img img {
+    width: 100%;
+    display: block;
+}
+
+.header .childheader .childheader2 {
+    background-color: #FFF;
+    height: 210px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header .childheader .childheader2 h1 {
+    color: #1e1f23;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.header .childheader .childheader2 hr {
+    width: 100px;
+}
+
+.header .childheader .childheader2 p {
+    color: #bbb;
+    font-size: .8rem;
+    letter-spacing: .25rem;
+    font-weight: 300;
+}
+
+.header .childheader .childheader3 {
+    background-color: #F5F5F4;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 58px;
+    line-height: 1.6;
+}
+
+.header .childheader .childheader3 .p1 {
+    margin-bottom: 30px;
+}
+
+/* End Header */
+
+/* Start Main */
+
+.header .main .childmain {
+    width: 1020px;
+    overflow: hidden;
+    position: relative;
+    left: 60px;
+    padding: 50px 0;
+}
+
+.header .main .childmain .headc {
+    background-color: #121315;
+    text-align: center;
+    padding: 20px;
+}
+
+.header .main .childmain .headc p {
+    color: rgba(255, 255, 255, 0.25);
+    font-size: .8rem;
+    letter-spacing: .25rem;
+    font-weight: 300;
+}
+
+.header .main .childmain .photo {
+    width: 100%;
+}
+
+.header .main .childmain .photo img {
+    width: 50%;
+    float: left;
+}
+
+/* End Main*/
+
+/* Start Main2 */
+
+.header .main2 {
+    width: 100%;
+    overflow: hidden;
+    background-color: #F5F5F4;
+}
+
+.header .main2 .photo {
+    width: 50%;
+    float: left;
+}
+
+.header .main2 .photo img {
+    width: 100%;
+    display: block;
+}
+
+.header .main2 .text {
+    width: 50%;
+    float: left;
+}
+
+.header .main2 .text .text1 {
+    padding: 100px 50px;
+}
+
+.header .main2 .text h3 {
+    color: #1e1f23;
+}
+
+.header .main2 .text p {
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.7;
+    width: 450px;
+}
+
+/* End Main2 */
+
+/* Start main3 */
+
+
+.header .main3 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header .main3 .photo {
+    width: 50%;
+    float: right;
+}
+
+.header .main3 .photo img {
+    width: 100%;
+    display: block;
+}
+
+.header .main3 .text {
+    width: 50%;
+    float: left;
+}
+
+.header .main3 .text .text1 {
+    padding: 100px 50px;
+    text-align: right;
+}
+
+.header .main3 .text h3 {
+    color: #FFF;
+    margin-right: 18px;
+}
+
+.header .main3 .text p {
+    color: rgba(255, 255, 255, 0.25);
+    line-height: 1.7;
+    width: 450px;
+}
+
+/* Start main3 */
+
+/* Start Main4 */
+
+
+.header .main4 {
+    width: 100%;
+    overflow: hidden;
+    background-color: #F5F5F4;
+}
+
+.header .main4 .photo {
+    width: 50%;
+    float: left;
+}
+
+.header .main4 .photo img {
+    width: 100%;
+    display: block;
+}
+
+.header .main4 .text {
+    width: 50%;
+    float: left;
+}
+
+.header .main4 .text .text1 {
+    padding: 100px 50px;
+}
+
+.header .main4 .text h3 {
+    color: #1e1f23;
+}
+
+.header .main4 .text p {
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.7;
+    width: 450px;
+}
+
+/* End Main4*/
+
+/* Start Footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer .icon ul {
+    list-style: none;
+}
+
+.footer .icon ul li {
+    display: inline-block;
+    padding: 50px 10px 0 10px;
+}
+
+.footer .textf p {
+    color: rgba(255, 255, 255, 0.65);
+    padding-bottom: 10px;
+}
+
+.footer .textf p a {
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.footer .textf p a:hover {
+    text-decoration: none;
+}
+/* End Footer */
